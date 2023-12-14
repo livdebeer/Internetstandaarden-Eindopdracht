@@ -1,0 +1,246 @@
+body {
+  background: url("/images/solen-feyissa-uF6SAMRXJ2c-unsplash.jpg") no-repeat
+    center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+p {
+  text-align: center;
+}
+
+* {
+  font-family: Verdana;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 60vw;
+  background-color: rgb(178, 138, 156);
+  align-content: center;
+  padding: 2em;
+}
+
+header img {
+  margin-bottom: 1em;
+  margin-left:28vw;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background: rgba(161, 104, 126, 0.4);
+  width: 100vw;
+  height: 9.5vw;
+  border-bottom-color: black;
+  
+}
+
+.logo {
+  height: 85px;
+  width: 85px;
+  margin-left: 3vw;
+  position:relative;
+  top: 0px;
+  
+}
+
+
+.logo{
+  -webkit-animation: spin 5s infinite;
+   animation: spin 5s infinite; 
+}
+
+@-webkit-keyframes spin{
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@keyframes spin{
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+
+main {
+  padding-top: 2em;
+}
+
+.prop figure {
+  text-align:center;
+  padding: 2em;
+}
+
+/* .prop img {
+  border-bottom: 2px black;
+  border-style: groove;
+  border-top:#333;
+  border-left: #333;
+  border-right: #333;
+
+} */
+
+.galerij {
+  display: flex;
+  overflow: auto; 
+  gap: 2em;
+  padding: 1em;
+  text-align: center; 
+}
+
+.big-picture {
+ width:80%;
+}  
+
+main img {
+ display:block;
+ margin: auto;
+ margin-top: 2em;
+}
+
+.something {
+  display: flex;
+  text-align: center;
+  padding: 1em;
+  padding-top: 0%;
+  gap: 2em;
+  overflow-x: auto;
+  align-items: center;
+}
+
+
+ hr {
+  height: 2px;
+  border: none;
+  background: rgb(161, 104, 126);
+  margin: 1em;
+  margin-left: -1.9vw;
+  margin-right: -1.9vw;
+}
+
+header hr {
+  background:black;
+}
+
+.button {
+  background-color: rgb(7, 41, 62); /* Green */
+  border-color: #333;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 100%;
+}
+
+.button:hover {
+  background-color: rgb(7, 57, 83);
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-bottom: 1em;
+  text-align: center;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.sort {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3em;
+  gap: 2em;
+  overflow-x: auto;
+}
+
+video {
+    margin-top: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+.miep {
+  overflow: auto; 
+  gap: 2em;
+  padding: 1em;
+  text-align: center; 
+
+}
+
+.dark-mode .wrapper{
+  background-color: rgb(107, 67, 85);
+  color: white;
+}
+
+
+.light-mode {
+  background-color: rgb(178, 138, 156);
+  color: black;
+}
+
+.mode {
+  position:absolute;
+  text-align:right;
+  padding: 1em;
+  top: 0;
+  right: 0;
+  margin-top: 10px; 
+  margin-right: 10px;
+  
+}
+
+.buttonspecial1 {
+  background-color: rgb(47, 23, 32);
+  color: white;
+}
+
+.buttonspecial2 {
+  background-color: rgb(178, 138, 156);
+  color: black;
+}
+
+
+.firstdate figcaption {
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+/* rgb(7, 57, 83)
+  rgb(161, 104, 126)
+  rgb(178, 138, 156)
+  rgb(217, 205, 220)
+  rgb(7, 41, 62) */

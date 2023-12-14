@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SukiWeb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header>
+      <img src="./images/logo-animatie.png" alt="Animatie Suki Logo" class="logo"> 
+      <img src="./images/suki-logo.avif" alt="Suki Waterhouse header">
+
+      <div class="mode">
+      <h3 id="DarkModetext">Dark Mode is OFF</h3>
+      <button class="buttonspecial1" onclick="darkMode()">DarkMode</button>
+      <button class="buttonspecial2" onclick="lightMode()">LightMode</button>
+      
+
+    <script>
+      function darkMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+        document.getElementById("body").style.background = "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/solen-feyissa-uF6SAMRXJ2c-unsplash.jpg') no-repeat center center/cover"
+    }
+    function lightMode() {
+        let element = document.body;
+        let content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+        document.getElementById("body").style.background = "url('/images/solen-feyissa-uF6SAMRXJ2c-unsplash.jpg') no-repeat center center/cover"
+    }
+    </script>
+    </div>
+      
+    <nav>
+        <ul style="list-style: none">
+          <li><a href="index.html" class="button">Home</a></li>
+          <li>
+            <a href="news.html" class="button">News</a>
+          </li>
+          <li>
+            <a href="aboutme.html" class="button">About me</a>
+          </li>
+          <li>
+            <a href="merch.html" class="button">Merch</a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr />
+    </header>
+
+    <div class="wrapper">
+    <main>
+        <h1>Welcome to my site!</h1>
+        <p>
+          Hi everyone, I'm Liv and I'm 18 years old. I am a big fan of Suki
+          Waterhouse and her work, so i have decided to make a website for and
+          about her. Enjoy getting to know about me.
+        </p>
+            <img class="big-picture"
+            src="./images/F9x6Z5mXMAAKKIY.jpg"
+            alt="sometext"/> 
+
+        <hr/>
+
+        <h2>News</h2>
+        <p>Stay up to date!</p>
+            <section class="galerij">
+            <div class="item">
+                <img src="./images/a4da2aefd766311af3021dce4ad3e05d.jpg"
+                  width="300"
+                  height="300"
+                  alt="sometext"/>
+                <p>Suki's Baby Bump</p>
+            </div>
+
+            <div class="item">
+                <img src="./images/NYPICHPDPICT000071729029.jpg"
+                  width="200"
+                  height="300"
+                  alt="sometext"/>
+                <p>Out on a hike</p>
+            </div>
+
+            <div class="item">
+                <img src="./images/Suki-Waterhouse-Baby-Bump-Album-1.webp"
+                  width="240"
+                  height="300"
+                  alt="sometext"/>
+                <p>Is Suki Pregnant?</p>
+            </div>
+
+            <div class="item">
+                <img src="./images/love-is-real-and-beautiful.jpg"
+                  width="230"
+                  height="300"
+                  alt="sometext"/>
+                <p>Serving at The Met Gala</p>
+            </div>
+
+            <div class="item">
+                <img src="./images/download-(1).jpg"
+                  width="240"
+                  height="300"
+                  alt="sometext"/>
+                <p>Daisy Jones And The Six</p>
+            </div>
+
+            <div class="item">
+                <img src="./images/nostalgia-💐.jpg"
+                  width="240"
+                  height="300"
+                  alt="sometext"/>
+                <p>Nostalgia Videoclip</p>
+            </div>
+        </section>
+          
+          <hr />
+
+          <h2>About me</h2>
+          <p>Get to know more about Sukis acting, modeling and music career. Also get more to know about her relationship with Robert Pattinson.</p>
+          <section class="galerij">
+            <img src="./images/Suki-Waterhouse-walks-hand-in-hand-with-beau-Robert-Pattinson.jpg"
+                width="220"
+                height="300"
+                alt="rob and suki walking together"/>
+            <img src="./images/Suki-Waterhouse.jpg"
+                width="200"
+                height="300"
+                alt="Suki performing"/>
+            <img src="./images/Suki-Waterhouse-and-Robert-Pattinson.jpg"
+                width="210"
+                height="300"
+                alt="rob and suki"/>
+
+          </section>
+          <hr />
+
+        <h2>Merch</h2>
+        <p>Start adding things to your wishlist.</p>
+          <section class="something">
+            <figure class="prop">
+              <img src="./images/SUKI-CoolestLogoTourTee_Green.webp"
+                width="300"
+                height="300"
+                alt="sometext"
+              />
+              <figcaption>Coolest Tour Logo Tee</figcaption>
+            </figure>
+
+            <figure class="prop">
+              <img src="./images/UPDATED-0922SukiWaterhouseMilkTeethLP.webp"
+                width="300"
+                height="300"
+                alt="sometext"
+              />
+              <figcaption>Milk Teeth Vinyl</figcaption>
+            </figure>
+
+            <figure class="prop">
+              <img src="./images/SUK-CoolestCrewneckOLM.webp"
+                width="300"
+                height="300"
+                alt="sometext"
+              />
+              <figcaption>Coolest Place Is The World Crewneck</figcaption>
+            </figure>
+          </section>
+          
+          <hr/>
+
+    </main>
+
+    <footer>
+        <h3>Info</h3>
+        <p>This Website is made by Liv de Beer. Klas Roze.</p>
+            <section class="miep">
+                <img src="./images/IMG_3BF57DDE4062-1.jpeg"
+                width="120"
+                height="200"
+                alt="Liv, Me"/>
+            </section>
+          </footer>
+        </div>
+        
+  </body>
+</html>
+
+<!-- https://nl.pinterest.com/pin/492649951243905/
+https://nl.pinterest.com/pin/124200902216037664/
+https://nl.pinterest.com/pin/140806231571303/
+https://nl.pinterest.com/pin/1759287346206646/
+https://nl.pinterest.com/pin/140806231665643/
+https://nl.pinterest.com/pin/140806231665643/
+https://nl.pinterest.com/pin/861243128757566598/
+https://nl.pinterest.com/pin/140806231665632/
+https://nl.pinterest.com/pin/17873729763801132/
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usmagazine.com%2Fcelebrity-moms%2Fpictures%2Fpregnant-suki-waterhouses-baby-bump-album-before-1st-baby%2F&psig=AOvVaw1OMZCft-_0Y7VGO8uXy3wy&ust=1700649859748000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCl7Mf01IIDFQAAAAAdAAAAABAg
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usmagazine.com%2Fcelebrity-moms%2Fpictures%2Fpregnant-suki-waterhouses-baby-bump-album-before-1st-baby%2F&psig=AOvVaw1OMZCft-_0Y7VGO8uXy3wy&ust=1700649859748000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCl7Mf01IIDFQAAAAAdAAAAABAs
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fpagesix.com%2F2023%2F11%2F19%2Fparents%2Fsuki-waterhouse-is-pregnant-expecting-first-baby-with-robert-pattinson%2F&psig=AOvVaw1TtKJ7_GsmeoH-HZ4t-CfR&ust=1700651939406000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC-vaf81IIDFQAAAAAdAAAAABAo
+https://www.tiktok.com/@boranoticias/video/7303366588693007621?q=i%20decided%20to%20wear%20someting%20sparkley%20suki%20waterhouse&t=1700664088152
+https://www.dailymail.co.uk/tvshowbiz/article-12703637/Suki-Waterhouse-appears-display-pregnancy-bump-steps-beau-Robert-Pattinson-hike-LA.html
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.celebsfirst.com%2Fsuki-waterhouse-flashes-baby-bump-braves-rain-visiting-friend-beverly-hills-california%2F&psig=AOvVaw03m9dM8NVCxo4UAl1BBowC&ust=1702474013863000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDNhqCAioMDFQAAAAAdAAAAABAD
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vogue.com%2Farticle%2Fsuki-waterhouses-hm-british-fashion-awards&psig=AOvVaw1cWXLVojlJ7fsOqGlJMgH8&ust=1702474124401000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOi_4r2AioMDFQAAAAAdAAAAABAD 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailymail.co.uk%2Ftvshowbiz%2Farticle-12722331%2FSuki-Waterhouse-bundles-oversized-hoodie-holding-hands-Robert-Pattinson-continues-spark-pregnancy-rumors.html&psig=AOvVaw2uavgWeR28CfWeoZiqFXkE&ust=1702580718326000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDj6syNjYMDFQAAAAAdAAAAABAD
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.sports.yahoo.com%2Famphtml%2Fanna-wintour-roger-federer-carla-100000262&psig=AOvVaw1Ol3H60zNQv4qsq0gSu3LW&ust=1702581156632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjTi5yPjYMDFQAAAAAdAAAAABAD
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.harpersbazaar.com%2Fcelebrity%2Flatest%2Fa43756546%2Frobert-pattinson-suki-waterhouse-met-gala-2023%2F&psig=AOvVaw1Ol3H60zNQv4qsq0gSu3LW&ust=1702581156632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjTi5yPjYMDFQAAAAAdAAAAABAR
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.today.com%2Fpopculture%2Frobert-pattinson-suki-waterhouse-relationship-timeline-rcna123457&psig=AOvVaw1Ol3H60zNQv4qsq0gSu3LW&ust=1702581156632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjTi5yPjYMDFQAAAAAdAAAAABAj
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usmagazine.com%2Fstylish%2Fpictures%2Fmet-gala-2023-suki-waterhouse-robert-pattinson-kiss-cuddle%2F&psig=AOvVaw1Ol3H60zNQv4qsq0gSu3LW&ust=1702581156632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjTi5yPjYMDFQAAAAAdAAAAABA1
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cosmopolitan.com%2Fentertainment%2Fcelebs%2Fa39261370%2Frobert-pattinson-suki-waterhouse-relationship-timeline%2F&psig=AOvVaw1Ol3H60zNQv4qsq0gSu3LW&ust=1702581156632000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjTi5yPjYMDFQAAAAAdAAAAABA-
+https://www.vogue.co.uk/arts-and-lifestyle/article/daisy-jones-and-the-six-series
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.emmys.com%2Fnews%2Ffeatures%2Fdaisy-jones-rock-odyssey&psig=AOvVaw2-olkFKlThEzx3OaRNyLW3&ust=1702582443219000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJj4-YCUjYMDFQAAAAAdAAAAABAq
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vanityfair.com%2Fhollywood%2F2023%2F03%2Fdaisy-jones-and-the-six-book-show-differences&psig=AOvVaw2-olkFKlThEzx3OaRNyLW3&ust=1702582443219000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJj4-YCUjYMDFQAAAAAdAAAAABAz
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.insider.com%2Fsuki-waterhouse-music-milk-teeth-interview-2022-11&psig=AOvVaw1I9UQBbUXXZn-BZPa3YJb8&ust=1702582736815000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND1q4yVjYMDFQAAAAAdAAAAABAD
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fatwoodmagazine.com%2Fswng-suki-waterhouse-nostalgia-song-review%2F&psig=AOvVaw1I9UQBbUXXZn-BZPa3YJb8&ust=1702582736815000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND1q4yVjYMDFQAAAAAdAAAAABAI
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailymail.co.uk%2Ftvshowbiz%2Farticle-11282247%2FSuki-Waterhouse-dons-vintage-corset-digs-burial-plot-music-video-Nostalgia.html&psig=AOvVaw1I9UQBbUXXZn-BZPa3YJb8&ust=1702582736815000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND1q4yVjYMDFQAAAAAdAAAAABAR
+https://www.tiktok.com/@suki_waterhouse/video/7150732029791948038
+https://sukiwaterhouse.tv/
+https://nl.pinterest.com/search/pins/?rs=ac&len=2&q=suki%20waterhouse%20and%20robert%20pattinson&eq=suki%20waterhouse%20and&etslf=6149
+
+-->

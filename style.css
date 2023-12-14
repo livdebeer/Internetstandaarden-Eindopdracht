@@ -1,5 +1,5 @@
 body {
-  background: url("/images/solen-feyissa-uF6SAMRXJ2c-unsplash.jpg") no-repeat
+  background: url("./images/solen-feyissa-uF6SAMRXJ2c-unsplash.jpg") no-repeat
     center center/cover;
   display: flex;
   flex-direction: column;
